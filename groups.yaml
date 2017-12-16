@@ -1,0 +1,30 @@
+  weather_main:
+    name: Weather
+    entities:
+      - sensor.dark_sky_icon
+      - sensor.dark_sky_nearest_storm_distance
+      - sensor.dark_sky_precip
+      - sensor.dark_sky_precip_intensity
+      - sensor.dark_sky_summary
+      - sensor.dark_sky_temperature
+
+  Thermostat:
+    name: Nest Thermostat
+    entities:
+      - sensor.upstairs_thermostat_humidity
+      - sensor.upstairs_thermostat_hvac_state
+      - sensor.upstairs_thermostat_operation_mode
+      - sensor.upstairs_thermostat_target
+      - sensor.upstairs_thermostat_temperature
+      - climate.upstairs
+      - binary_sensor.upstairs_thermostat_online
+      - binary_sensor.upstairs_thermostat_is_using_emergency_heat
+      - binary_sensor.upstairs_thermostat_is_locked
+      - binary_sensor.upstairs_thermostat_has_leaf
+      - binary_sensor.upstairs_thermostat_fan
+
+  media:
+    name: media Players
+    entities:
+      - media_player.roku_13c29v023204
+      - media_player.roku_13c2a5090572

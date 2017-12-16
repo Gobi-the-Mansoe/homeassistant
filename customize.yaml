@@ -1,0 +1,19 @@
+    sun.sun:
+      hidden: true
+
+    sensor.upstairs_thermostat_target:
+      friendly_name: Thermostat Target
+    sensor.upstairs_thermostat_temperature:
+      friendly_name: Inside Temp
+    sensor.upstairs_thermostat_operation_mode:
+      hidden: true
+    sensor.upstairs_thermostat_hvac_state:
+      hidden: true
+    sensor.upstairs_thermostat_humidity:
+      friendly_name: Inside Humidity
+
+    media_player.roku_13c29v023204:
+      friendly_name: Roku - Front Room
+    media_player.roku_13c2a5090572:
+      friendly_name: Roku - Master Bedroom
+  

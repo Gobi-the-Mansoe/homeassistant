@@ -14,7 +14,7 @@ homeassistant:
   customize: !include customize.yaml
 
 # Show links to resources in log and frontend
-introduction:
+# introduction:
 
 # Enables the frontend
 frontend:
@@ -35,7 +35,7 @@ http:
 # https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
 updater:
   # Optional, allows Home Assistant developers to focus on popular components.
-  # include_used_components: true
+  include_used_components: true
 
 # Discover some devices automatically
 discovery:
@@ -59,10 +59,6 @@ sun:
 nest:
   client_id: !secret nest_product_id
   client_secret: !secret nest_product_secret
-
-# Weather prediction
-sensor:
-  - platform: yr
 
 # Text to speech
 tts:
