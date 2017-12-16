@@ -1,0 +1,16 @@
+# contains miscelanious sensors
+sensor:
+  - platform: darksky
+    api_key: !secret api_key
+    forecase:
+      - 1
+      - 3
+      - 5
+      - 7
+    monitored_conditions:
+      - summary
+      - precip_type
+      - precip_intensity
+      - temperature
+      - icon
+      - nearest_storm_distance
