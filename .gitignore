@@ -12,6 +12,7 @@ known_devices.yaml
 google_calendars.yaml
 secrets.yaml
 .google.token
+.uuid
 
 # Directories
 icloud
