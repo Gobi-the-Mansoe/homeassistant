@@ -55,6 +55,11 @@ map:
 # Track the sun
 sun:
 
+# nest configuration
+nest:
+  client_id: !secret nest_product_id
+  client_secret: !secret nest_product_secret
+
 # Weather prediction
 sensor:
   - platform: yr
@@ -66,3 +71,4 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+sensors: !include sensors.yaml
