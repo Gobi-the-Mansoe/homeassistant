@@ -71,4 +71,4 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
-sensors: !include sensors.yaml
+sensor: !include sensors.yaml
