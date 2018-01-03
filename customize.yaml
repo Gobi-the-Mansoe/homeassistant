@@ -1,19 +1,38 @@
-    sun.sun:
-      hidden: true
-
-    sensor.upstairs_thermostat_target:
-      friendly_name: Thermostat Target
-    sensor.upstairs_thermostat_temperature:
-      friendly_name: Inside Temp
-    sensor.upstairs_thermostat_operation_mode:
-      hidden: true
-    sensor.upstairs_thermostat_hvac_state:
-      hidden: true
-    sensor.upstairs_thermostat_humidity:
-      friendly_name: Inside Humidity
-
-    media_player.roku_13c29v023204:
-      friendly_name: Roku - Front Room
-    media_player.roku_13c2a5090572:
-      friendly_name: Roku - Master Bedroom
-  
+sun.sun:
+  hidden: true
+sensor.upstairs_thermostat_target:
+  friendly_name: Thermostat Target
+  hidden: true
+sensor.upstairs_thermostat_temperature:
+  friendly_name: Inside Temp
+  hidden: true
+sensor.upstairs_thermostat_operation_mode:
+  hidden: true
+sensor.upstairs_thermostat_hvac_state:
+  hidden: true
+sensor.upstairs_thermostat_humidity:
+  friendly_name: Inside Humidity
+media_player.roku_13c29v023204:
+  friendly_name: Roku - Front Room
+media_player.roku_13c2a5090572:
+  friendly_name: Roku - Master Bedroom
+binary_sensor.upstairs_thermostat_is_using_emergency_heat:
+  hidden: true
+media_player.samsung_led55_un55f6350:
+  hidden: true
+zwave.switchkitchen_lights:
+  hidden: true
+zwave.switchdeck_light:
+  hidden: true
+zwave.dimmerdining_room:
+  hidden: true
+zwave.aeotec_zw090_zstick_gen5_us:
+  hidden: true
+binary_sensor.upstairs_thermostat_online:
+  hidden: true
+binary_sensor.upstairs_thermostat_has_leaf:
+  hidden: true
+binary_sensor.upstairs_thermostat_fan:
+  hidden: true
+binary_sensor.upstairs_thermostat_is_locked:
+  hidden: true
