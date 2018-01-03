@@ -1,3 +1,9 @@
+# default groups
+group.all_switches:
+  hidden: true
+group.all_lights:
+  hidden: true
+
 sun.sun:
   hidden: true
 sensor.upstairs_thermostat_target:
@@ -20,14 +26,7 @@ binary_sensor.upstairs_thermostat_is_using_emergency_heat:
   hidden: true
 media_player.samsung_led55_un55f6350:
   hidden: true
-zwave.switchkitchen_lights:
-  hidden: true
-zwave.switchdeck_light:
-  hidden: true
-zwave.dimmerdining_room:
-  hidden: true
-zwave.aeotec_zw090_zstick_gen5_us:
-  hidden: true
+
 binary_sensor.upstairs_thermostat_online:
   hidden: true
 binary_sensor.upstairs_thermostat_has_leaf:
@@ -35,4 +34,20 @@ binary_sensor.upstairs_thermostat_has_leaf:
 binary_sensor.upstairs_thermostat_fan:
   hidden: true
 binary_sensor.upstairs_thermostat_is_locked:
+  hidden: true
+
+# zwave
+zwave.switchkitchen_lights:
+  hidden: true
+switch.switchkitchen_lights_switch:
+  friendly_name: Kitchen Light
+zwave.switchdeck_light:
+  hidden: true
+switch.switchdeck_light_switch:
+  friendly_name: Deck Light
+zwave.dimmerdining_room:
+  hidden: true
+light.dimmerdining_room_level:
+  friendly_name: Dining Room Light
+zwave.aeotec_zw090_zstick_gen5_us:
   hidden: true

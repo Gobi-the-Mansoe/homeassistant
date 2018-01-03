@@ -19,6 +19,7 @@ secrets.yaml
 icloud
 deps
 www
+.cloud
 
 # Python Caches
 __pycache__

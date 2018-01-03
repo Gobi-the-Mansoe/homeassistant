@@ -22,6 +22,10 @@ frontend:
 # Enables configuration UI
 config:
 
+# Enables HA Cloud service $5/mo starting in 3/2018. integration with cloud services
+cloud:
+
+# zwave via zstick on pi
 zwave:
   usb_path: /dev/ttyACM0
   network_key: !secret zwave_network_key
@@ -33,6 +37,7 @@ http:
   # base_url: example.duckdns.org:8123
   ssl_certificate: /etc/letsencrypt/live/superhouse.duckdns.org/fullchain.pem
   ssl_key: /etc/letsencrypt/live/superhouse.duckdns.org/privkey.pem
+  base_url: https://superhouse.duckdns.org:8123
 
 # Checks for available updates
 # Note: This component will send some information about your system to

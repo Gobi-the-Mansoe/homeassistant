@@ -28,3 +28,10 @@
     entities:
       - media_player.roku_13c29v023204
       - media_player.roku_13c2a5090572
+
+  lights:
+    name: Lights
+    entities:
+      - light.dimmerdining_room_level
+      - switch.switchdeck_light_switch
+      - switch.switchkitchen_lights_switch
